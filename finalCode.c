@@ -26,8 +26,8 @@ void driver() {
 		}
 
 	else if (vexRT[Btn6D]) {
-		motor[rightMogo] = -90;
-		motor[leftMogo] = -90;
+		motor[rightMogo] = -110;
+		motor[leftMogo] = -110;
 	}
 
 	else {
