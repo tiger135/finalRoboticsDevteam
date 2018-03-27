@@ -50,7 +50,15 @@ void driver() {
 		motor[rightLift] = 0;
 		motor[leftLift] = 0;
 	}
-
+	if (vexRT[Btn8U]) {
+		motor[claw] = 50;
+	}
+	else if (vexRT[Btn8D]) {
+		motor[claw] = -50
+	}
+	else {
+		motor[claw] = 0;
+	}
 
 }
 
