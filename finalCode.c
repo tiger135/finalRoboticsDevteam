@@ -21,13 +21,13 @@ void driver() {
 	motor[leftDrive] = a * vexRT[Ch3];
 
 	if (vexRT[Btn5D]) {
-		motor[rightMogo] = 90;
-		motor[leftMogo] = 90;
+		motor[rightMogo] = 100;
+		motor[leftMogo] = 100;
 		}
 
 	else if (vexRT[Btn6D]) {
-		motor[rightMogo] = -90;
-		motor[leftMogo] = -90;
+		motor[rightMogo] = -100;
+		motor[leftMogo] = -100;
 	}
 
 	else {
