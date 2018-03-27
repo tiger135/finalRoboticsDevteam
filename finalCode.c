@@ -17,6 +17,7 @@ void driver() {
 	else if (vexRT[Btn7D]) {
 			a = 1;
 	}
+
 	motor[rightDrive] = a * vexRT[Ch2];
 	motor[leftDrive] = a * vexRT[Ch3];
 
@@ -49,6 +50,11 @@ void driver() {
 		motor[rightLift] = 0;
 		motor[leftLift] = 0;
 	}
+
+
+}
+
+void auton() {
 
 
 }
